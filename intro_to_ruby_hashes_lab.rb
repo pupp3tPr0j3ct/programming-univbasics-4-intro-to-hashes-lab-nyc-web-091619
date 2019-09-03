@@ -26,16 +26,9 @@ end
 
 def read_from_hash(hash, key)
   hash[key]
-  
 end
 
 def update_counting_hash(hash, key)
-     {hash => key}
-      hash.fetch(key, hash[key] = 1)
-  if hash.include?(key) do
-    return hash[key] += 1
-  else
-    return hash[key]
-  end
+    
   
 end
